@@ -102,8 +102,14 @@ The `sample_resumes/` folder contains 3 test resumes designed to produce clearly
 Built by Meghana as part of a college placement-training assignment.
 ## Sample Output
 
-Here's what the bot returns after a resume is uploaded:
+**1. Starting a session** — set up with `/newjob`, paste the job description, and set mandatory/preferred skills:
+
+![Starting a new job session](Screenshots-output/Screenshot%202026-10-03%20165817.png)
+
+**2. Resume scored** — after uploading a resume, the bot returns a weighted score breakdown, missing skills, suggestions, and certification recommendations:
 
 ![Sample ATS score output](Screenshots-output/Screenshot%202026-10-03%20165835.png)
 
-The bot scores the resume against the job description's mandatory and preferred skills, flags missing requirements, and always returns exactly 3 improvement suggestions and 3 certification recommendations.
+**3. Non-resume document detected** — if an uploaded file doesn't look like a resume, the bot gives a gentle reminder instead of scoring it incorrectly:
+
+![Gentle reminder for non-resume upload](Screenshots-output/Screenshot%202026-10-03%20165937.png)
