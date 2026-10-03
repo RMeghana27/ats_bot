@@ -100,3 +100,10 @@ The `sample_resumes/` folder contains 3 test resumes designed to produce clearly
 
 ## Author
 Built by Meghana as part of a college placement-training assignment.
+## Sample Output
+
+Here's what the bot returns after a resume is uploaded:
+
+![Sample ATS score output](Screenshots-output/Screenshot%202026-10-03%20165835.png)
+
+The bot scores the resume against the job description's mandatory and preferred skills, flags missing requirements, and always returns exactly 3 improvement suggestions and 3 certification recommendations.
